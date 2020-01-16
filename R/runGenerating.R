@@ -37,7 +37,7 @@ prerequest <- function() {
 #'
 #' @export
 #' @author Zhe Liu
-#' @description Initiate the shiny app to do the forecasting
+#' @description Initiate the shiny app to do the generating
 #' @example runGenerating()
 #'
 runGenerating <- function() {
