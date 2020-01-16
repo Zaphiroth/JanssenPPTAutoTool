@@ -1,0 +1,39 @@
+Package: JanssenPPTAutoTool
+Type: Package
+Title: Auto generating PPT tables of Janssen
+Version: 0.1.0
+Author: Zhe Liu
+Maintainer: Zhe Liu <zliu@pharbers.com>
+Description: Input monthly raw data of Janssen CPD and IPD, 
+    then output tables used generating PPTs.
+License: LGPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    zip,
+    openxlsx,
+    readxl,
+    writexl,
+    RcppRoll,
+    plyr,
+    stringi,
+    feather,
+    RODBC,
+    MASS,
+    car,
+    data.table,
+    plotly,
+    tidyverse,
+    lubridate,
+    janitor,
+    digest,
+    tables,
+    DT,
+    shiny,
+    shinydashboard,
+    shinydashboardPlus,
+    shinyjs,
+    shinyFiles
+Suggests: 
+    pacman
+RoxygenNote: 7.0.2
